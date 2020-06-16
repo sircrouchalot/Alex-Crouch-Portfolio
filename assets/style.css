@@ -14,7 +14,7 @@ a {
 }
 
 .header {
-    padding: 0 10px;
+    padding: 0 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: white;
     border-bottom: 2px solid grey;
@@ -51,7 +51,22 @@ a {
     margin-left: 25px;
 }
 
-@media screen and (max-width: 674px) {
+.card {
+    margin: 20px 0 20px 35px;
+}
+
+.card h5 {
+    border-bottom: 5px solid #2a607c;
+    padding: 20px 0;
+}
+
+@media screen and (max-width: 767px) {
+    .card {
+        margin: 20px auto;
+    }
+}
+
+@media screen and (max-width: 694px) {
     .header {
         padding: 0;
         border-bottom: 0;
@@ -81,3 +96,6 @@ a {
 
 
 }
+
+
+
