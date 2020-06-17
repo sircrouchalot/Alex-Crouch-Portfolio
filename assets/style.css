@@ -6,6 +6,8 @@
 
 body {
     background-color: lightgrey;
+    margin-bottom: 100px;
+    clear: both;
 }
 
 a {
@@ -23,7 +25,7 @@ a {
 .header h1 {
     display: inline-block;
     color: #f7f7f7;
-    background-color: #2a607c;
+    background-color: #0068ad;
     font-size: 40px;
     padding: 20px;
     margin: 0;
@@ -57,20 +59,13 @@ a {
 }
 
 .card {
-    margin: 20px auto 20px 35px;
+    margin: 20px auto auto 35px;
 }
 
 .card h4 {
-    border-bottom: 5px solid #2a607c;
+    border-bottom: 5px solid #0068ad;
     padding: 20px 0;
 }
-
-.card h5 {
-    border-bottom: 5px solid #2a607c;
-    padding: 20px 0;
-}
-
-
 
 .about {
     margin-bottom: 10px;
@@ -83,7 +78,9 @@ a {
 
 .portfolioImage {
     width: 100%;
+    height: 75%;
     margin: 20px 0;
+    border: 2px solid grey;
 }
 
 /* #imageHeading {
@@ -97,17 +94,27 @@ a {
 
 } */
 
-#imageHeader {
+.imageHeader {
     position: absolute;
     padding: 5px;
-    bottom: 50%;
+    bottom: 20%;
     left: 15px;
     right: 15px;
     font-weight: bold;
     text-align: center;
     color: #1a1a1a;
-    background-color: #2a607c;
+    background-color: #0068ad;
     opacity: 0.9;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    margin-top: auto;
+    height: 50px;
+    width: 100%;
+    background-color: #262626;
+    border-top: 5px solid #0068ad;
 }
 
 @media screen and (max-width: 768px) {
