@@ -154,9 +154,20 @@ a {
   height: 75px;
   width: 100%;
   text-align: center;
-  padding-top: 2px;
-  background-color: #262626;
+  background-color: #305f63;
   border-top: 2px solid #0068ad;
+}
+
+.footer h5 {
+  padding-top: 5px;
+}
+
+.footer ul li {
+  display: inline-block;
+}
+
+.footer ul li a {
+  color: white;
 }
 
 .icon {
