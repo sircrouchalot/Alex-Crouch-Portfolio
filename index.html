@@ -1,67 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Me</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/0d41f3b820.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/style.css" />
+  </head>
 
-</head>
-
-<section class="container-fluid header">
-    <h1>Alex Crouch</h1>
+  <section class="container-fluid header">
+    <a href="index.html"><h1>Alex Crouch</h1></a>
     <div>
-        <ul>
-            <li>
-                <a href="index.html">About Me</a>
-            </li>
-            <li>
-                <a href="portfolio.html">Portfolio</a>
-            </li>
-            <li>
-                <a href="contact.html">Contact Me</a>
-            </li>
-        </ul>
+      <ul>
+        <li>
+          <a href="#about">About Me</a>
+        </li>
+        <li>
+          <a href="#portfolio">Portfolio</a>
+        </li>
+      </ul>
     </div>
-</section>
+  </section>
 
-<body>
+  <body>
+    <div class="body-content">
     <div class="row">
-        <div class="card col-10 col-lg-8 col-xl-5">
-            <div class="card-body">
-                <h4 class="card-title about">About Me</h4>
-                <div class="row">
-                    <div class="col-12">
-                        <img class="kitten img-thumbnail" src="https://bit.ly/2N58RiO" alt="Kitten" width="275"
-                            height="250">
-                        <p class="kittenText">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, cupiditate. Doloremque animi
-                            velit
-                            mollitia, dicta dolores labore sunt tempora fugiat? Fugit, cupiditate vitae. Ducimus dicta
-                            labore
-                            voluptas itaque nulla sit?
-                        </p>
-                        <p>
-                            Mauris accumsan nulla et ante faucibus auctor. Morbi varius turpis nisl, iaculis interdum
-                            massa bibendum a. Duis interdum vitae nibh rhoncus pellentesque. Vivamus efficitur justo vel
-                            velit placerat suscipit. Nam ac purus sed dolor ultrices aliquam vel eget mauris. Morbi ac
-                            sem dictum, vestibulum lorem vel, maximus ex.
-                        </p>
-                    </div>
-                </div>
+      <div class="card-transparent col-10 col-xl-8" id="about">
+        <div class="card-body">
+          <h4 class="card-title about">About Me</h4>
+          <div class="row">
+            <div class="col-12">
+              <img
+                class="profile img-thumbnail"
+                src="./assets/Images/headshot.jpg"
+                alt="Profile"
+                width="275"
+                height="250"
+              />
+              <p class="aboutMeText">
+                Full stack web developer and Photographer offering a keen eye
+                for design and composition by leveraging a photography and film
+                background. With a certificate in full stack development from
+                the University of Texas - Austin, I utilize acquired skills in
+                HTML, CSS, and Javascript to create beautiful and responsive web
+                pages.
+                <br></br>
+                My focus is always on mobile-first design, creating interfaces
+                that are intuitive and easy to use that offer utility to the
+                user in order to make their experience seamless. My background
+                in photography and experience in creating useful apps gives me
+                an understanding of the marriage between design and utility that
+                would be a strong addition to any workforce.
+              </p>
             </div>
+          </div>
         </div>
+      </div>
     </div>
 
+    <div class="row">
+      <div class="card-transparent col-10 col-xl-8" id="portfolio">
+          <div class="card-body">
+              <h4 class="card-title">Portfolio</h5>
+                  <div class="row">
+                      
+                      <div class="col-12 col-md-6">
+                          <a href="https://stephsko.github.io/Project-1/" target="_blank">
+                              <img class="portfolioImage" src="https://user-images.githubusercontent.com/65914787/86546394-4495f080-befa-11ea-863b-cf89fc83b529.png" alt="PassGenerator">
+                              <div class="imageHeader">
+                                  To Cook or Not To Cook
+                              </div>
+                          </a>
+                      </div>
+                      <div class="col-12 col-md-6">
+                          <a href="https://sircrouchalot.github.io/UT-HW4-Code-Quiz/" target="_blank">
+                              <img class="portfolioImage" src="https://bit.ly/2MZQsEe" alt="Trivia Pen and Paper">
+                              <div class="imageHeader">
+                                  Trivia Game
+                              </div>
+                          </a>
+                      </div>
+                  </div>
 
+                  <div class="row">
+                      <div class="col-12 col-md-6">
+                          <a href="https://sircrouchalot.github.io/Weather-App/" target="_blank">
+                              <img class="portfolioImage" src="https://bit.ly/2BbYzL9" alt="Weather">
+                              <div class="imageHeader">
+                                  Weather Widget
+                              </div>
+                          </a>
+                      </div>
+                      <div class="col-12 col-md-6">
+                          <a href="https://sircrouchalot.github.io/UT-HW3-Password-Generator/" target="_blank">
+                              <img class="portfolioImage" src="https://go.aws/30M08Kq" alt="PassGenerator">
+                              <div class="imageHeader">
+                                  Password Generator
+                              </div>
+                          </a>
+                      </div>
+                  </div>
+
+          </div>
+      </div>
+  </div>
 </body>
 
-<section class="footer">
-    
-</section>
-
+  <section class="footer">
+    <h5>Get in Touch!</h5>
+    <div class="links">
+      <a href="https://github.com/sircrouchalot" target="_blank"><i class="fab fa-github icon" style="color: white;">  Github</i></a>
+      <a href="https://www.linkedin.com/in/alex-crouch/" target="_blank"><i class="fab fa-linkedin icon">  LinkedIn</i></a>
+      <a href="mailto:acrouch06@gmail.com" target="_blank"><i class="fas fa-envelope-square icon">  Email</i></a>
+      <a href="/assets/resume/resume.pdf" target="_blank"><i class="far fa-file icon">  Resume</i></a>
+    </div>
+  </section>
 </html>
