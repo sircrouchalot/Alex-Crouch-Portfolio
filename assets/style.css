@@ -98,6 +98,11 @@ a {
   padding: 20px 0;
 }
 
+.caption {
+  background-color: black;
+  opacity: 65%;
+}
+
 .about {
   margin-bottom: 10px;
 }
