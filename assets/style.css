@@ -145,9 +145,10 @@ a {
   opacity: 0.9;
 }
 
-.footer {
+footer {
   font-family: "Roboto Condensed", sans-serif;
   position: relative;
+  display: inline-block;
   bottom: 0;
   /* margin-top: auto; */
   height: 150px;
@@ -157,19 +158,19 @@ a {
   border-top: 2px solid #0068ad;
 }
 
-.footer h3 {
+footer h3 {
   padding-top: 5px;
 }
 
-.footer ul {
+footer ul {
   margin: 0;
 }
 
-.footer ul li {
+footer ul li {
   display: inline-block;
 }
 
-.footer ul li a {
+footer ul li a {
   color: white;
 }
 
