@@ -79,65 +79,102 @@
           <div class="card-body">
             <h4 class="card-title">Portfolio</h4>
             <div class="row">
-              <div class="col-12 col-md-6">
-                <a href="https://stephsko.github.io/Project-1/" target="_blank">
-                  <img
-                    class="portfolioImage"
-                    src="https://user-images.githubusercontent.com/65914787/86546394-4495f080-befa-11ea-863b-cf89fc83b529.png"
-                    alt="Project_One"
-                  />
-                  <div class="imageHeader">
-                    To Cook or Not To Cook
-                  </div>
-                </a>
-              </div>
-              <div class="col-12 col-md-6">
-                <a
-                  href="https://sircrouchalot.github.io/UT-HW4-Code-Quiz/"
-                  target="_blank"
+              <div class="col-12">
+                <div
+                  id="carouselExampleIndicators"
+                  class="carousel slide"
+                  data-ride="carousel"
                 >
-                  <img
-                    class="portfolioImage"
-                    src="https://bit.ly/2MZQsEe"
-                    alt="Trivia Pen and Paper"
-                  />
-                  <div class="imageHeader">
-                    Trivia Game
+                  <ol class="carousel-indicators">
+                    <li
+                      data-target="#carouselExampleIndicators"
+                      data-slide-to="0"
+                      class="active"
+                    ></li>
+                    <li
+                      data-target="#carouselExampleIndicators"
+                      data-slide-to="1"
+                    ></li>
+                    <li
+                      data-target="#carouselExampleIndicators"
+                      data-slide-to="2"
+                    ></li>
+                    <!-- <li
+                      data-target="#carouselExampleIndicators"
+                      data-slide-to="3"
+                    ></li> -->
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img
+                        class="d-block w-80"
+                        src="./assets/Images/ToCookorNot.png"
+                        alt="First slide"
+                      />
+                      <div class="carousel-caption d-none d-md-block caption">
+                        <h5>To Cook or Not To Cook</h5>
+                        <p>An app that returns the top 5 restaurants in your area, as well as the top 5 recipes containing what you search for.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        class="d-block w-100"
+                        src="./assets/Images/Employee_Tracker.PNG"
+                        alt="Second slide"
+                      />
+                      <div class="carousel-caption d-none d-md-block caption">
+                        <h5>Employee Tracker</h5>
+                        <p>A CLI application that takes user input to build a database of employees.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        class="d-block w-100"
+                        src="./assets/Images/scheduler.png"
+                        alt="Third slide"
+                      />
+                      <div class="carousel-caption d-none d-md-block caption">
+                        <h5>Work Day Scheduler</h5>
+                        <p>A work-day scheduler that stores your tasks for the day and To Do items.</p>
+                      </div>
+                    </div>
+                    <!-- <div class="carousel-item">
+                      <img
+                        class="d-block w-100"
+                        src="./assets/Images/quiz.PNG"
+                        alt="Fourth slide"
+                      />
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Code Quiz</h5>
+                        <p>A coding quiz that records high scores.</p>
+                      </div>
+                    </div> -->
                   </div>
-                </a>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-12 col-md-6">
-                <a
-                  href="https://sircrouchalot.github.io/Weather-App/"
-                  target="_blank"
-                >
-                  <img
-                    class="portfolioImage"
-                    src="https://bit.ly/2BbYzL9"
-                    alt="Weather"
-                  />
-                  <div class="imageHeader">
-                    Weather Widget
-                  </div>
-                </a>
-              </div>
-              <div class="col-12 col-md-6">
-                <a
-                  href="https://sircrouchalot.github.io/UT-HW3-Password-Generator/"
-                  target="_blank"
-                >
-                  <img
-                    class="portfolioImage"
-                    src="https://go.aws/30M08Kq"
-                    alt="PassGenerator"
-                  />
-                  <div class="imageHeader">
-                    Password Generator
-                  </div>
-                </a>
+                  <a
+                    class="carousel-control-prev"
+                    href="#carouselExampleIndicators"
+                    role="button"
+                    data-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a
+                    class="carousel-control-next"
+                    href="#carouselExampleIndicators"
+                    role="button"
+                    data-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
