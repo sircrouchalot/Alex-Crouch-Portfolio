@@ -6,6 +6,8 @@
 
 body {
   margin-bottom: 100px;
+  height: auto;
+  min-height: 100%;
   clear: both;
   color: white;
   background: url(Images/DSC_2057.jpg) no-repeat center center fixed;
@@ -71,14 +73,16 @@ a {
 }
 
 .body-content {
+  color: black;
   width: 100%;
+  height: auto;
   margin-top: 30px;
   position: fixed;
   top: 50px;
   bottom: 0;
   overflow: auto;
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none;
+  /* -ms-overflow-style: none;
+  scrollbar-width: none; */
 }
 
 .body-content::-webkit-scrollbar {
@@ -149,6 +153,15 @@ a {
   background-color: #0068ad;
   opacity: 0.9;
 }
+
+#welcome .card-body {
+  padding: 100px;
+  height: 800px;
+}
+
+/* .welcomeText {
+  padding: 100px;
+} */
 
 footer {
   font-family: "Roboto Condensed", sans-serif;
@@ -236,8 +249,14 @@ footer ul li a {
   }
   .body-content {
     margin-top: 82px;
+    top: 65px;
   }
   .card h4 {
     text-align: center;
+  }
+
+  #welcome .card-body {
+    padding: 10px;
+    height: 600px;
   }
 }
